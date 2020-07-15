@@ -1,0 +1,107 @@
+body {
+  background-color: #010165;
+  margin: 0px; 
+}
+
+:root {
+    font-size: 62.5%;   /* 1rem = 10px => facile à calculer !! */
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #00ffff;
+  text-align: center;
+}
+
+.title-row{
+  margin-top: 42px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.instructions-title{
+  display: inline;
+  font-size: 1.8rem;
+  color: #00ffff;
+  font-family: ‘Work Sans’;
+  text-transform: uppercase;
+}
+
+.instructions-row {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.instructions-number {
+  padding-right: 2.5rem;
+  font-family: ‘Work Sans’;
+  font-size: 3.6rem;
+  color: #00ffff;
+}
+
+.instructions-text {
+  padding-right: 1rem;
+  font-family: ‘Work Sans’;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+.door-row{
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.door-frame{
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.start-row {
+  margin: auto;
+  width: 12rem;
+  height: 4rem;
+  font-family: ‘Work Sans’;
+  background-color: #FFEC8C;
+  padding: 1.8rem 1.8rem 0 1.8rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 2.1rem;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+i {
+  color: #00FFFF;
+  padding: 0 0.5rem;
+}
+
+.header img {
+  height: 17.5rem;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: #444;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 40px;
+  padding: 3.5px 2px 2px 2px;
+}
